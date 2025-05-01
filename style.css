@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    align-items: center ;
+    
+    
+  }
+  
+  .container {
+    background-color: #1e1e1e;
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    width:300px;
+  }
+  
+  .container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .container input::placeholder {
+    color: #b2b2b2;
+  }
+  
+  .container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00bcd4;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color  0.3s;
+  }
+  
+  .container button:hover {
+    background-color: #01517c;
+  }
+  
+  #todos {
+    margin-top: 20px;
+    width: 400px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  
+  .todo {
+    background-color: #2a2a2a;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todo h3 {
+    margin: 0;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  
+  .todo button {
+    width: 100px;
+    background-color: #27900c;
+    border: none;
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .todo button:hover {
+    background-color: #096c2f;
+  }
+  
